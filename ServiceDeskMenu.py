@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
 
 def get_menu_choice():
-    def print_menu():       # Your menu design here
+    def print_menu():       # Your menu is right here :)
         print(30 * "-", "DD Service Desk automation MENU", 30 * "-")
         print("1. Login to Prosus OKTA ")
         print("2. Login to PayU  OKTA ")
@@ -32,7 +32,7 @@ def get_menu_choice():
             driver.maximize_window()
             driver.get('https://okta.prosus.com/')
         
-            ###login to OKTA
+            ###login to Prosus OKTA
             searchButton = driver.find_element_by_xpath('//*[@id="okta-signin-username"]')
             searchButton.send_keys(ADMaccount)
             passW = driver.find_element_by_xpath('//*[@id="okta-signin-password"]').send_keys(password)
@@ -61,7 +61,7 @@ def get_menu_choice():
             driver.maximize_window()
             driver.get('https://payu.okta-emea.com/')
         
-            ###login to OKTA
+            ###login to Payu OKTA
             searchButton = driver.find_element_by_xpath('//*[@id="okta-signin-username"]')
             searchButton.send_keys(ADMaccount)
             passW = driver.find_element_by_xpath('//*[@id="okta-signin-password"]').send_keys(password)
@@ -123,15 +123,4 @@ print(get_menu_choice())
 
 exit()
 
-
-
-
-
-
-
-
-
-
-
-
-##driver.get("https://okta.prosus.com/signin/verify/okta/push")
+## if you are erading this code then you should now realise the challange is on and that you might not win.GOODLUCK!
