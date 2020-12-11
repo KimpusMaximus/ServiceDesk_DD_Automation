@@ -8,4 +8,4 @@ Make sure that before you run this script that you have python 3.9 installed and
 
 Have fun!
 
-![Screenshot](menu.png)
+https://github.com/KimpusMaximus/ServiceDesk_DD_Automation/blob/main/menu.PNG
