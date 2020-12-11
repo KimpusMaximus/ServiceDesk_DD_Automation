@@ -1,5 +1,7 @@
 # ServiceDesk_DD_Automation
 
+First Python script to use in the office.
+
 This script automates a OKTA login , checks the weather and checks SA covid Stats for our beloved service desk agents who need to login all the time.
 
 You can check the weather with it and also the latest Western Cape Covid Stats!
